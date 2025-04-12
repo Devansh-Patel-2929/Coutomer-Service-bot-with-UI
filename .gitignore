@@ -1,0 +1,23 @@
+# Ignore model checkpoints and large model files
+/results/
+chatbot_model/model.safetensors
+
+# Ignore temporary, system, and runtime files
+*.pyc
+__pycache__/
+*.log
+*.DS_Store
+*.ipynb_checkpoints
+
+# Ignore datasets and outputs
+*.csv
+
+# Ignore documents and PDFs
+*.docx
+*.pdf
+
+# Optional: Ignore Jupyter notebook if not needed in repo
+# tut.ipynb
+
+# VSCode settings (optional)
+.vscode/
